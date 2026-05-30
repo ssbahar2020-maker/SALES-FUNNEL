@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You for Your Purchase | S S Accounting & Tax Services</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- ============================================================
+       FACEBOOK PIXEL — PURCHASE EVENT
+       Replace YOUR_PIXEL_ID with your actual Pixel ID.
+       Replace PURCHASE_VALUE with the actual amount paid
+       (pass via URL param from payment processor, e.g. ?value=47&plan=popular).
+       ============================================================ -->
+  <script>
+    // Parse value and plan from URL query string set by payment processor
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var value  = parseFloat(params.get('value')) || 27;
+      var plan   = params.get('plan') || 'single';
+
+      // Facebook Pixel base code
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', 'YOUR_PIXEL_ID'); // REPLACE with your actual Pixel ID
+      fbq('track', 'PageView');
+      fbq('track', 'Purchase', {
+        value: value,
+        currency: 'USD',
+        content_name: 'The S-Corp Tax Savings Playbook',
+        content_ids: [plan],
+        content_type: 'product'
+      });
+    })();
+  </script>
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header-inner">
+    <div class="logo">S S Accounting &amp; Tax Services</div>
+    <a href="index.html" class="btn-secondary" style="font-size:0.875rem;padding:0.4rem 1rem;">← Back to Main Page</a>
+  </div>
+</header>
+
+<main>
+  <section class="section" style="min-height:80vh;display:flex;align-items:center;">
+    <div class="section-inner text-center">
+
+      <!-- Success Icon -->
+      <div style="font-size:4rem;margin-bottom:1.5rem;">&#127881;</div>
+
+      <h1 style="font-size:2.4rem;color:#0a2342;margin-bottom:1rem;">
+        Thank You for Your Purchase!
+      </h1>
+      <p style="font-size:1.15rem;max-width:600px;margin:0 auto 2.5rem;color:#5a5a72;line-height:1.75;">
+        Your order is confirmed. You are one step closer to a clearer understanding of how your business taxes work. We appreciate your trust in S S Accounting &amp; Tax Services.
+      </p>
+
+      <!-- Download Instructions Card -->
+      <div style="background:#f5f5f5;border-radius:16px;padding:2.5rem;max-width:640px;margin:0 auto 2.5rem;text-align:left;box-shadow:0 4px 20px rgba(0,0,0,0.07);">
+        <h2 style="font-size:1.4rem;color:#0a2342;margin-bottom:1.25rem;display:flex;align-items:center;gap:0.5rem;">
+          &#128229; How to Access Your Download
+        </h2>
+        <ol style="list-style:none;padding:0;margin:0;counter-reset:steps;">
+          <li style="display:flex;gap:1rem;margin-bottom:1.25rem;align-items:flex-start;">
+            <span style="background:#c9a84c;color:#0a2342;font-weight:800;font-size:0.9rem;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">1</span>
+            <div>
+              <strong style="color:#0a2342;">Check your email inbox</strong><br>
+              <span style="color:#5a5a72;font-size:0.95rem;">A confirmation email with your secure download link has been sent to the address you provided at checkout.</span>
+            </div>
+          </li>
+          <li style="display:flex;gap:1rem;margin-bottom:1.25rem;align-items:flex-start;">
+            <span style="background:#c9a84c;color:#0a2342;font-weight:800;font-size:0.9rem;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</span>
+            <div>
+              <strong style="color:#0a2342;">Click the download link in the email</strong><br>
+              <span style="color:#5a5a72;font-size:0.95rem;">The link will take you directly to your PDF file. If you do not see the email within 5 minutes, please check your spam or junk folder.</span>
+            </div>
+          </li>
+          <li style="display:flex;gap:1rem;margin-bottom:1.25rem;align-items:flex-start;">
+            <span style="background:#c9a84c;color:#0a2342;font-weight:800;font-size:0.9rem;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">3</span>
+            <div>
+              <strong style="color:#0a2342;">Save the PDF to your device</strong><br>
+              <span style="color:#5a5a72;font-size:0.95rem;">Save it to your phone, tablet, laptop, or cloud storage (Google Drive, Dropbox, iCloud) so you always have access to it.</span>
+            </div>
+          </li>
+          <li style="display:flex;gap:1rem;align-items:flex-start;">
+            <span style="background:#c9a84c;color:#0a2342;font-weight:800;font-size:0.9rem;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">4</span>
+            <div>
+              <strong style="color:#0a2342;">Open with any PDF reader</strong><br>
+              <span style="color:#5a5a72;font-size:0.95rem;">Use Adobe Acrobat Reader, Apple Preview, your browser's built-in viewer, or any PDF app on your phone. No special software required.</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <!-- Support -->
+      <div style="background:#fff8e7;border:2px solid #c9a84c;border-radius:12px;padding:1.5rem;max-width:520px;margin:0 auto 2.5rem;">
+        <p style="margin:0;font-size:0.95rem;color:#6b5209;line-height:1.7;">
+          <strong>Need help with your download?</strong><br>
+          Call us at <a href="tel:4704555515" style="color:#0a2342;font-weight:700;">470-455-5515</a> or email
+          <a href="mailto:info@YOURDOMAIN.COM" style="color:#0a2342;font-weight:700;">info@YOURDOMAIN.COM</a>
+          <!-- REPLACE email with your actual support email address -->
+          <br>We typically respond within one business day.
+        </p>
+      </div>
+
+      <!-- Optional Consultation CTA -->
+      <div style="background:#0a2342;border-radius:16px;padding:2rem;max-width:580px;margin:0 auto 2rem;">
+        <h3 style="color:#c9a84c;font-size:1.2rem;margin-bottom:0.75rem;">
+          Ready to Take the Next Step?
+        </h3>
+        <p style="color:rgba(255,255,255,0.85);font-size:0.95rem;margin-bottom:1.25rem;">
+          If the book raises questions about your specific tax situation, our team is here to help. S S Accounting &amp; Tax Services offers professional tax preparation, bookkeeping, payroll, and tax planning for businesses in all 50 states.
+        </p>
+        <a href="tel:4704555515" class="btn-primary">
+          Call 470-455-5515 to Schedule a Consultation
+        </a>
+      </div>
+
+      <!-- Disclaimer -->
+      <p style="font-size:0.82rem;color:#999;max-width:560px;margin:0 auto;line-height:1.6;">
+        This book is for general educational purposes only and does not constitute tax, legal, or financial advice. Consult a qualified professional for guidance specific to your situation.
+      </p>
+
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-bottom">
+      <p>&copy; 2025 S S Accounting &amp; Tax Services. All rights reserved.</p>
+      <div>
+        <a href="privacy-policy.html" style="color:rgba(255,255,255,0.5);margin-right:1rem;">Privacy Policy</a>
+        <a href="terms-of-use.html" style="color:rgba(255,255,255,0.5);margin-right:1rem;">Terms of Use</a>
+        <a href="contact.html" style="color:rgba(255,255,255,0.5);">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
