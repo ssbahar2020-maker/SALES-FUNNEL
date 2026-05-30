@@ -1,0 +1,17 @@
+# Documentation files — kept locally, not deployed to Hostinger
+*.md
+README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*.log
